@@ -9,8 +9,7 @@ from matplotlib.colors import ListedColormap
 from scipy.stats import zscore
 from nilearn.datasets import fetch_atlas_schaefer_2018
 
-path = 'C:/Users/justi/OneDrive - McGill University/MisicLab/proj_receptors/\
-github/hansen_receptors/'
+path = '/content/hansen_receptors/'
 
 scale = 'scale100'
 
