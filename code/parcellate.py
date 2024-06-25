@@ -11,10 +11,8 @@ scale = 'scale100'
 
 schaefer = fetch_atlas_schaefer_2018(n_rois=100)
 
-path = "C:/Users/justi/OneDrive - McGill University/MisicLab/proj_receptors/\
-github/hansen_receptors/data/PET_nifti_images/"
-outpath = "C:/Users/justi/OneDrive - McGill University/MisicLab/proj_receptors/\
-github/hansen_receptors/data/PET_parcellated/"+scale+"/"
+path = "/content/hansen_receptors/data/PET_nifti_images/"
+outpath = "/content/hansen_receptors/data/PET_parcellated/"+scale+"/"
 
 receptors_nii = [path+'5HT1a_way_hc36_savli.nii',
                  path+'5HT1a_cumi_hc8_beliveau.nii',
